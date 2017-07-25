@@ -11,6 +11,13 @@ hunter_add_version(
     SHA1 64fa803ffcc739ad6a9592d8a24a94ac60f6e8e1
 )
 
+hunter_add_version(
+    PACKAGE_NAME rdma-cm
+    VERSION "master"
+    URL "https://github.com/huiyiqun/rdma-core/archive/master.tar.gz"
+    SHA1 64fa803ffcc739ad6a9592d8a24a94ac60f6e8e1
+)
+
 # Pick a download scheme
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 
