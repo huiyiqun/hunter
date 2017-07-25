@@ -15,7 +15,6 @@ hunter_add_version(
 hunter_cmake_args(
     rdma-cm
     CMAKE_ARGS
-      ENABLE_RESOLVE_NEIGH=0
       ENABLE_STATIC=1
 )
 
